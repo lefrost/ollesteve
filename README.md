@@ -8,7 +8,7 @@
 - utilises ionic + capacitor to engage sveltekit with mobile development.
 
 mobile setup:
-- `npx cap init [name] [id]` (use default `www` for `web-dir` on prompt)
+- `npx cap init [name] [id]` (eg. `npx cap init ollesteve_test_1 la.lef.ollesteve_test_1`) (use default `www` for `web-dir` on prompt)
 - `npx cap add [android/ios]`
 - update `CapacitorConfig.webDir` in `capacitor.config.ts` to `build`
 
