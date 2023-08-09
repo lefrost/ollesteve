@@ -30,8 +30,10 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@capacitor/android": "^5.2.2",
 		"@capacitor/cli": "^5.2.2",
 		"@capacitor/core": "^5.2.2",
+		"@capacitor/ios": "^5.2.2",
 		"@rollup/plugin-inject": "^5.0.2",
 		"@solana/wallet-adapter-wallets": "^0.19.20",
 		"@solana/web3.js": "^1.78.3",
