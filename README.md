@@ -1,4 +1,4 @@
-#### 🌸 ollesteve
+#### 🏵️ ollesteve
 
 - [sveltekit native](https://svelte-native.technology/) boilerplate by lé.
 - `npm i`, `npm run dev` to run. default port is 3000.
