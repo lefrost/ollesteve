@@ -2,8 +2,9 @@
 	// imports
 
 	import { onDestroy, onMount } from 'svelte';
-	import { Buffer } from 'buffer';
+	import { browser } from '$app/environment';
 	import { page, navigating } from '$app/stores';
+	import { Buffer } from 'buffer';
 
 	import Header from '../components/Header.svelte';
 	import * as api from '../assets/js/api';
@@ -16,7 +17,9 @@
 	// mount
 
 	onMount(async () => {
-		window.Buffer = window.Buffer || Buffer;
+		if (browser) {
+			window.Buffer = Buffer;
+		}
 
 		in_maintenance = in_maintenance && $page.url.searchParams.get(`mode`) !== `dev`;
 
